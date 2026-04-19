@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cloud-api
+  namespace: cloud-boilerplate
 spec:
   selector:
     app: cloud-api

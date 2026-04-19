@@ -2,6 +2,7 @@ apiVersion: monitoring.coreos.com/v1
 kind: PrometheusRule
 metadata:
   name: cloud-alerts
+  namespace: cloud-boilerplate
 spec:
   groups:
   - name: cloud-monitoring.rules
