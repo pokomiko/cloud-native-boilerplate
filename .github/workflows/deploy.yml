@@ -10,7 +10,7 @@ env:
   IMAGE_OWNER: pokomiko
   API_IMAGE_NAME: cloud-native-boilerplate-api
   WORKER_IMAGE_NAME: cloud-native-boilerplate-worker
-  KUBE_NAMESPACE: default
+  KUBE_NAMESPACE: cloud-boilerplate
   API_DEPLOYMENT_NAME: cloud-api
   WORKER_DEPLOYMENT_NAME: cloud-worker
   API_CONTAINER_NAME: api
@@ -199,4 +199,3 @@ jobs:
         shell: bash
         run: |
           kubectl get all -n "${KUBE_NAMESPACE}"
-          kubectl apply -f k8s/ -n cloud-boilerplate
