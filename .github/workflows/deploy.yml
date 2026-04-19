@@ -199,3 +199,4 @@ jobs:
         shell: bash
         run: |
           kubectl get all -n "${KUBE_NAMESPACE}"
+          kubectl apply -f k8s/ -n cloud-boilerplate
