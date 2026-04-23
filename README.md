@@ -1,4 +1,4 @@
-# 🚀 Cloud-Native Boilerplate (FastAPI + Worker + Kubernetes)
+# 🚀 Cloud-Native Boilerplate (FastAPI + Worker + Kubernetes) 
 
 A production-ready cloud-native boilerplate that demonstrates how to build, containerize, and deploy scalable services using FastAPI, background workers, and Kubernetes.
 
